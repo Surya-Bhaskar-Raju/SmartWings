@@ -1,0 +1,92 @@
+<!--
+  This template provides a form for updating (rescheduling) a flight.
+  It includes fields for flight number, origin, destination, departure/arrival times, status, and prices.
+  Angular's two-way binding and template-driven forms are used for data binding and validation.
+-->
+
+<h2 class="page-title">Update Flight</h2>
+
+<div class="card">
+  <form (ngSubmit)="updateFlight(flight)" #flightForm="ngForm" class="form-grid">
+    
+    <!-- Flight Number -->
+    <div class="form-field">
+      <label for="flightNumber">Flight Number</label>
+      <input class="input" id="flightNumber" [(ngModel)]="flight.flightNumber" name="flightNumber" required />
+    </div>
+
+    <!-- Origin city selection -->
+    <div class="form-field">
+      <label for="origin">Origin</label>
+      <select class="input" id="origin" [(ngModel)]="flight.origin" name="origin" required>
+        <option *ngFor="let city of cities" [value]="city">{{ city }}</option>
+      </select>
+    </div>
+
+    <!-- Destination city selection -->
+    <div class="form-field">
+      <label for="destination">Destination</label>
+      <select class="input" id="destination" [(ngModel)]="flight.destination" name="destination" required>
+        <option *ngFor="let city of cities" [value]="city">{{ city }}</option>
+      </select>
+    </div>
+
+    <!-- Departure Time input -->
+    <div class="form-field">
+      <label for="departureTime">Departure Time</label>
+      <input 
+        class="input"
+        type="datetime-local"
+        id="departureTime"
+        [(ngModel)]="flight.departureTime"
+        name="departureTime"
+        [ngModel]="flight.departureTime | date:'yyyy-MM-ddTHH:mm'"
+        required
+      />
+    </div>
+
+    <!-- Arrival Time input -->
+    <div class="form-field">
+      <label for="arrivalTime">Arrival Time</label>
+      <input 
+        class="input"
+        type="datetime-local"
+        id="arrivalTime"
+        [(ngModel)]="flight.arrivalTime"
+        name="arrivalTime"
+        [ngModel]="flight.arrivalTime | date:'yyyy-MM-ddTHH:mm'"
+        required
+      />
+    </div>
+
+    <!-- Flight Status selection -->
+    <div class="form-field">
+      <label for="status">Status</label>
+      <select class="input select" id="status" [(ngModel)]="flight.status" name="status">
+        <option value="Scheduled">Available</option>
+        <option value="Delayed">Delayed</option>
+      </select>
+    </div>
+
+    <!-- Economy Price input -->
+    <div class="form-field">
+      <label for="priceEconomy">Price Economy</label>
+      <input class="input" type="number" id="priceEconomy" [(ngModel)]="flight.priceEconomy" name="priceEconomy" required />
+    </div>
+
+    <!-- Business Price input -->
+    <div class="form-field">
+      <label for="priceBusiness">Price Business</label>
+      <input class="input" type="number" id="priceBusiness" [(ngModel)]="flight.priceBusiness" name="priceBusiness" required />
+    </div>
+
+    <!-- Submit button -->
+    <div class="form-actions">
+      <button class="btn" type="submit">Update Flight</button>
+    </div>
+  </form>
+
+  <!-- Success / Error Messages -->
+  <p *ngIf="!errorMessage && isUpdated" class="alert success">{{ successMessage }}</p>
+  <p *ngIf="errorMessage" class="alert error">{{ errorMessage }}</p>
+</div>

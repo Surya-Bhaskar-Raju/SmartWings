@@ -1,0 +1,64 @@
+<div class="search-container">
+  <h2>Search Flights</h2>
+
+  <!-- Search Form -->
+  <form (ngSubmit)="searchFlights()" #flightForm="ngForm" class="search-form">
+    <div class="form-group">
+      <label>Origin:</label>
+      <select [(ngModel)]="origin" name="origin" required>
+        <option value="" disabled>Select origin city</option>
+        <option *ngFor="let city of cities" [value]="city">{{ city }}</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label>Destination:</label>
+      <select [(ngModel)]="destination" name="destination" required>
+        <option value="" disabled>Select destination city</option>
+        <option *ngFor="let city of cities" [value]="city">{{ city }}</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label>Departure Date:</label>
+      <input type="date" [(ngModel)]="departureTime" name="departureTime" />
+    </div>
+
+    <button type="submit" [disabled]="isLoading">Search</button>
+  </form>
+
+  <!-- Loading & Error -->
+  <div *ngIf="isLoading" class="loading">Loading flights...</div>
+  <div *ngIf="errMsg" class="error">{{ errMsg }}</div>
+
+  <!-- No flights found -->
+  <div class="no-flights" *ngIf="!isLoading && flights.length === 0">
+    <p>No flights found for the selected criteria.</p>
+  </div>
+
+  <!-- Flight Cards -->
+  <div class="flight-card" *ngFor="let flight of flights">
+    <div class="flight-header">
+      <h3>Flight {{ flight.flightNumber }}</h3>
+      <span class="status-badge">{{ flight.status || "Available" }}</span>
+    </div>
+
+    <div class="flight-info">
+      <p><strong>Origin:</strong> {{ flight.origin }}</p>
+      <p><strong>Destination:</strong> {{ flight.destination }}</p>
+      <p>
+        <strong>Departure:</strong>
+        {{ flight.departureTime | date : "fullDate" }} at
+        {{ flight.departureTime | date : "shortTime" }}
+      </p>
+      <p><strong>Price(Economy):</strong> {{ flight.priceEconomy }}</p>
+      <p><strong>Price(Business):</strong> {{ flight.priceBusiness }}</p>
+      <p><strong> ArrivalTime:</strong>{{ flight.arrivalTime | date : "fullDate" }} at
+        {{ flight.arrivalTime | date : "shortTime" }}</p>
+    </div>
+
+    <div class="flight-action">
+      <button (click)="bookFlight(flight.flightId)">Book Now</button>
+    </div>
+  </div>
+</div>

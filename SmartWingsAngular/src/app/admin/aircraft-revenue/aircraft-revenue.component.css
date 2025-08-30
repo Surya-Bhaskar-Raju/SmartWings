@@ -1,0 +1,12 @@
+.card {
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+input.form-control {
+  font-size: 1.1rem;
+}
+
+button.btn {
+  width: 100%;
+}

@@ -1,0 +1,71 @@
+.section-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.aircraft-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.aircraft-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-left: 6px solid #007bff; /* Accent color */
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.06);
+  transition: all 0.2s ease-in-out;
+}
+
+.aircraft-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.aircraft-model {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #222;
+}
+
+.aircraft-stats {
+  margin-top: 6px;
+  font-size: 0.95rem;
+  color: #555;
+  display: flex;
+  gap: 15px;
+}
+
+.aircraft-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  padding: 6px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.btn-primary {
+  background: #007bff;
+  color: white;
+}
+
+.btn-danger {
+  background: #dc3545;
+  color: white;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}

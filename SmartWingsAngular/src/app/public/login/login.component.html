@@ -1,0 +1,272 @@
+<div class="container-bg">
+  <div class="container-content">
+    <div class="container-main">
+
+      <!-- Login Form -->
+      <div *ngIf="!showRegister && !showForgotPassword" class="form-container">
+        <h2 class="form-title">Login</h2>
+
+        <!-- Error Alert for Login -->
+        <div *ngIf="loginErrorMessage" class="alert alert-danger alert-responsive">
+          {{ loginErrorMessage }}
+        </div>
+
+        <form (ngSubmit)="login()" #loginForm="ngForm" class="responsive-form">
+          <div class="form-group">
+            <label for="email" class="form-label">Email Address</label>
+            <input type="email" id="email" class="form-control responsive-input" placeholder="Enter your Email Address"
+              [(ngModel)]="email" name="email" required />
+          </div>
+
+          <div class="form-group">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" id="password" class="form-control responsive-input" placeholder="Enter your Password"
+              [(ngModel)]="password" name="password" required />
+          </div>
+
+          <button type="submit" class="btn btn-primary responsive-btn" [disabled]="!loginForm.form.valid || isLoading">
+            {{ isLoading ? 'Logging in...' : 'Login' }}
+          </button>
+        </form>
+
+        <!-- Forgot Password Link -->
+        <div class="toggle-link">
+          <p class="toggle-text">
+            <span class="link-text" (click)="toggleForgotPassword()">Forgot Password?</span>
+          </p>
+        </div>
+
+        <!-- Register Link -->
+        <div class="toggle-link">
+          <p class="toggle-text">Not a user?
+            <span class="link-text" (click)="toggleRegister()">Register</span>
+          </p>
+        </div>
+      </div>
+
+      <!-- Registration Form -->
+      <div *ngIf="showRegister && !showForgotPassword" class="form-container">
+        <!-- Step 1: Enter Registration Details -->
+        <div *ngIf="registrationStep === 1">
+          <h2 class="form-title">Register</h2>
+
+          <!-- Success Alert -->
+          <div *ngIf="successMessage" class="alert alert-success alert-responsive">
+            {{ successMessage }}
+          </div>
+
+          <!-- Error Alert -->
+          <div *ngIf="errorMessage" class="alert alert-danger alert-responsive">
+            {{ errorMessage }}
+          </div>
+
+          <!-- OTP Message Alert -->
+          <div *ngIf="registerOtpMessage" class="alert alert-success alert-responsive">
+            {{ registerOtpMessage }}
+          </div>
+
+          <form (ngSubmit)="requestRegistrationOtp()" #registerForm="ngForm" class="responsive-form">
+            <div class="form-group">
+              <label class="form-label">Username</label>
+              <input type="text" class="form-control responsive-input" placeholder="Enter your username"
+                [(ngModel)]="username" name="username" required />
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Email</label>
+              <input type="email" class="form-control responsive-input" placeholder="Enter your email"
+                [(ngModel)]="registerEmail" name="registerEmail" required email />
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Password</label>
+              <input type="password" class="form-control responsive-input" placeholder="Enter your password"
+                [(ngModel)]="registerPassword" name="registerPassword" required minlength="6" />
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Confirm Password</label>
+              <input type="password" class="form-control responsive-input" placeholder="Confirm your password"
+                [(ngModel)]="confirmPassword" name="confirmPassword" required />
+            </div>
+
+            <button type="submit" class="btn btn-primary responsive-btn"
+              [disabled]="!registerForm.form.valid || isRequestingRegisterOtp">
+              {{ isRequestingRegisterOtp ? 'Sending OTP...' : 'Send OTP' }}
+            </button>
+          </form>
+        </div>
+
+        <!-- Step 2: Verify OTP -->
+        <div *ngIf="registrationStep === 2">
+          <h2 class="form-title">Verify Email</h2>
+          <p class="forgot-description">Enter the OTP sent to {{ registerEmail }} to complete your registration.</p>
+
+          <!-- Error Alert -->
+          <div *ngIf="errorMessage" class="alert alert-danger alert-responsive">
+            {{ errorMessage }}
+          </div>
+
+          <!-- Success Alert -->
+          <div *ngIf="successMessage" class="alert alert-success alert-responsive">
+            {{ successMessage }}
+          </div>
+
+          <!-- OTP Message Alert -->
+          <div *ngIf="registerOtpMessage" class="alert alert-success alert-responsive">
+            {{ registerOtpMessage }}
+          </div>
+
+          <!-- Show form only if there's no success message -->
+          <form *ngIf="!successMessage" (ngSubmit)="verifyOtpAndRegister()" #otpForm="ngForm" class="responsive-form">
+            <div class="form-group">
+              <label for="registerOtp" class="form-label">OTP</label>
+              <input type="text" id="registerOtp" class="form-control responsive-input" placeholder="Enter the OTP"
+                [(ngModel)]="registerOtp" name="registerOtp" required />
+            </div>
+
+            <button type="submit" class="btn btn-primary responsive-btn"
+              [disabled]="!otpForm.form.valid || isVerifyingOtp">
+              {{ isVerifyingOtp ? 'Verifying...' : 'Verify OTP & Register' }}
+            </button>
+          </form>
+
+          <!-- Success message with option to go to login -->
+          <div *ngIf="successMessage" class="text-center" style="margin-top: 20px;">
+            <button type="button" class="btn btn-primary responsive-btn"
+              (click)="showRegister = false; successMessage = ''; registrationStep = 1">
+              Go to Login
+            </button>
+          </div>
+
+          <!-- Resend OTP - only show if no success message -->
+          <div *ngIf="!successMessage" class="toggle-link">
+            <p class="toggle-text">
+              <span class="link-text" (click)="resendRegistrationOtp()" [class.disabled]="isRequestingRegisterOtp">
+                {{ isRequestingRegisterOtp ? 'Sending OTP...' : 'Resend OTP' }}
+              </span>
+            </p>
+          </div>
+
+          <!-- Back to Step 1 -->
+          <div *ngIf="!successMessage" class="toggle-link">
+            <p class="toggle-text">
+              <span class="link-text" (click)="registrationStep = 1; errorMessage = ''; registerOtpMessage = ''">
+                Back to Registration Form
+              </span>
+            </p>
+          </div>
+        </div>
+
+        <!-- Back to Login Link -->
+        <div class="toggle-link">
+          <p class="toggle-text">Already have an account?
+            <span class="link-text" (click)="toggleRegister()">Login</span>
+          </p>
+        </div>
+      </div>
+
+      <!-- Forgot Password Form -->
+      <div *ngIf="showForgotPassword" class="form-container">
+        <!-- Step 1: Enter Email -->
+        <div *ngIf="forgotPasswordStep === 1">
+          <h2 class="form-title">Forgot Password</h2>
+          <p class="forgot-description">Enter your email address to receive an OTP.</p>
+
+          <!-- Error Alert -->
+          <div *ngIf="forgotPasswordErrorMessage" class="alert alert-danger alert-responsive">
+            {{ forgotPasswordErrorMessage }}
+          </div>
+
+          <!-- Success Alert -->
+          <div *ngIf="forgotPasswordSuccessMessage" class="alert alert-success alert-responsive">
+            {{ forgotPasswordSuccessMessage }}
+          </div>
+
+          <form (ngSubmit)="requestOtp()" #forgotEmailForm="ngForm" class="responsive-form">
+            <div class="form-group">
+              <label for="forgotEmail" class="form-label">Email Address</label>
+              <input type="email" id="forgotEmail" class="form-control responsive-input"
+                placeholder="Enter your email address" [(ngModel)]="forgotEmail" name="forgotEmail" required email />
+            </div>
+
+            <button type="submit" class="btn btn-primary responsive-btn"
+              [disabled]="!forgotEmailForm.form.valid || isRequestingOtp">
+              {{ isRequestingOtp ? 'Sending OTP...' : 'Send OTP' }}
+            </button>
+          </form>
+        </div>
+
+        <!-- Step 2: Enter OTP and New Password -->
+        <div *ngIf="forgotPasswordStep === 2">
+          <h2 class="form-title">Reset Password</h2>
+          <p class="forgot-description">Enter the OTP sent to {{ forgotEmail }} and your new password.</p>
+
+          <!-- Error Alert -->
+          <div *ngIf="forgotPasswordErrorMessage" class="alert alert-danger alert-responsive">
+            {{ forgotPasswordErrorMessage }}
+          </div>
+
+          <!-- Success Alert -->
+          <div *ngIf="forgotPasswordSuccessMessage" class="alert alert-success alert-responsive">
+            {{ forgotPasswordSuccessMessage }}
+          </div>
+
+          <!-- Show form only if there's no success message -->
+          <form *ngIf="!forgotPasswordSuccessMessage" (ngSubmit)="resetPassword()" #resetPasswordForm="ngForm"
+            class="responsive-form">
+            <div class="form-group">
+              <label for="otp" class="form-label">OTP</label>
+              <input type="text" id="otp" class="form-control responsive-input" placeholder="Enter the OTP"
+                [(ngModel)]="otp" name="otp" required />
+            </div>
+
+            <div class="form-group">
+              <label for="newPassword" class="form-label">New Password</label>
+              <input type="password" id="newPassword" class="form-control responsive-input"
+                placeholder="Enter your new password" [(ngModel)]="newPassword" name="newPassword" required
+                minlength="6" />
+            </div>
+
+            <div class="form-group">
+              <label for="confirmNewPassword" class="form-label">Confirm New Password</label>
+              <input type="password" id="confirmNewPassword" class="form-control responsive-input"
+                placeholder="Confirm your new password" [(ngModel)]="confirmNewPassword" name="confirmNewPassword"
+                required />
+            </div>
+
+            <button type="submit" class="btn btn-primary responsive-btn"
+              [disabled]="!resetPasswordForm.form.valid || isResettingPassword">
+              {{ isResettingPassword ? 'Resetting Password...' : 'Reset Password' }}
+            </button>
+          </form>
+
+          <!-- Success message with option to go to login -->
+          <div *ngIf="forgotPasswordSuccessMessage" class="text-center" style="margin-top: 20px;">
+            <button type="button" class="btn btn-primary responsive-btn"
+              (click)="showForgotPassword = false; forgotPasswordSuccessMessage = ''">
+              Go to Login
+            </button>
+          </div>
+
+          <!-- Resend OTP - only show if no success message -->
+          <div *ngIf="!forgotPasswordSuccessMessage" class="toggle-link">
+            <p class="toggle-text">
+              <span class="link-text" (click)="resendOtp()" [class.disabled]="isRequestingOtp">
+                {{ isRequestingOtp ? 'Sending OTP...' : 'Resend OTP' }}
+              </span>
+            </p>
+          </div>
+        </div>
+
+        <!-- Back to Login Link -->
+        <div class="toggle-link">
+          <p class="toggle-text">Remember your password?
+            <span class="link-text" (click)="toggleForgotPassword()">Back to Login</span>
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

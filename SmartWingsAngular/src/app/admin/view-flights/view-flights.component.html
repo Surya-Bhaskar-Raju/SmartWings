@@ -1,0 +1,71 @@
+<!--
+  Displays a list of available flights with status, details, and actions.
+  Shows a loader while fetching data and error message if loading fails.
+  Each flight card displays flight info and allows rescheduling or cancelling,
+  with buttons disabled for cancelled or expired flights.
+-->
+
+<h2>Available Flights</h2>
+
+<div class="flights-container">
+
+  <!-- Loader -->
+  <div *ngIf="isLoading" class="loading-inline">
+    <div class="spinner"></div>
+    <p>Please wait, Retrieving flights...</p>
+  </div>
+
+  <!-- Error Message -->
+  <div *ngIf="errMsg" class="error-message">
+    {{ errMsg }}
+  </div>
+
+  <!-- Flight Cards -->
+  <div class="flight-card"
+       *ngFor="let flight of flights"
+       [ngClass]="{
+         'status-scheduled': flight.status === 'Scheduled',
+         'status-delayed': flight.status === 'Delayed',
+         'status-cancelled': flight.status === 'Cancelled',
+         'status-expired': flight.status === 'Expired'
+       }">
+
+    <!-- Header -->
+    <div class="flight-header">
+      <h3>{{ flight.flightNumber }}</h3>
+      <span class="badge"
+            [ngClass]="{
+              'badge-scheduled': flight.status === 'Scheduled',
+              'badge-delayed': flight.status === 'Delayed',
+              'badge-cancelled': flight.status === 'Cancelled',
+              'badge-expired': flight.status === 'Expired'
+            }">
+        {{ flight.status }}
+      </span>
+    </div>
+
+    <!-- Info -->
+    <div class="flight-info">
+      <p><strong>From:</strong> {{ flight.origin }}</p>
+      <p><strong>To:</strong> {{ flight.destination }}</p>
+      <p><strong>Departure:</strong> {{ flight.departureTime | date:'short' }}</p>
+      <p><strong>Arrival:</strong> {{ flight.arrivalTime | date:'short' }}</p>
+      <p><strong>Economy:</strong> ₹{{ flight.priceEconomy }}</p>
+      <p><strong>Business:</strong> ₹{{ flight.priceBusiness }}</p>
+    </div>
+
+    <!-- Actions -->
+    <div class="flight-actions">
+      <button class="btn btn-reschedule"
+              (click)="rescheduleFlight(flight)"
+              [disabled]="flight.status === 'Cancelled' || flight.status === 'Expired'">
+        Reschedule
+      </button>
+      <button class="btn btn-cancel"
+              (click)="cancelFlight(flight)"
+              [disabled]="flight.status === 'Cancelled' || flight.status === 'Expired'">
+        Cancel
+      </button>
+    </div>
+  </div>
+</div>

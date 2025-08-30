@@ -1,0 +1,35 @@
+<div class="booking-container">
+  <h2>✈ Book Your Flight</h2>
+
+  <div *ngIf="flight">
+    <p><strong>Flight Number:</strong> {{ flight.flightNumber }}</p>
+    <p><strong>Origin:</strong> {{ flight.origin }}</p>
+    <p><strong>Destination:</strong> {{ flight.destination }}</p>
+    <p><strong>Departure:</strong> {{ flight.departureTime | date: 'medium' }}</p>
+  </div>
+
+  <h3>👤 Passenger Info</h3>
+  <div *ngFor="let p of passengers; let i = index">
+    <label>Passenger {{ i + 1 }}</label>
+    <input [(ngModel)]="p.fullName" placeholder="Full Name">
+    <input [(ngModel)]="p.age" type="number" placeholder="Age">
+    <select [(ngModel)]="p.gender">
+      <option value="">Gender</option>
+      <option value="Male">Male</option>
+      <option value="Female">Female</option>
+    </select>
+    <input [(ngModel)]="p.passportNumber" placeholder="Passport Number">
+    <hr>
+  </div>
+
+  <button (click)="addPassenger()">➕ Add Passenger</button>
+
+  <h3>🎫 Travel Class</h3>
+  <select [(ngModel)]="selectedClass">
+    <option value="">Select Class</option>
+    <option *ngFor="let c of classOptions" [value]="c">{{ c }}</option>
+  </select>
+
+  <br><br>
+  <button (click)="proceedToPayment()">💳 Proceed to Payment</button>
+</div>

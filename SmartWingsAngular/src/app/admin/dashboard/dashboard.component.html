@@ -1,0 +1,61 @@
+<div class="container-fluid">
+  <div class="row min-vh-100">
+    <!-- Left side menu -->
+    <div
+      class="col-md-3 col-lg-2 bg-dark text-white p-4 shadow-sm d-flex flex-column"
+    >
+      <h4 class="mb-3 border-bottom pb-2">Welcome, Admin!</h4>
+      <p class="small text-light opacity-75">
+        Manage your flights and aircraft here.
+      </p>
+
+      <nav class="nav flex-column mt-3 gap-2">
+        <a
+          routerLink="view-flights"
+          class="btn btn-outline-light w-100 text-start"
+          >✈ View All Flights</a
+        >
+        <a
+          routerLink="add-flight"
+          class="btn btn-outline-success w-100 text-start"
+          >➕ Add New Flight</a
+        >
+        <a
+          routerLink="add-aircraft"
+          class="btn btn-outline-info w-100 text-start"
+          >🛫 Add New Aircraft</a
+        >
+        <a
+          routerLink="view-aircraft"
+          class="btn btn-outline-secondary w-100 text-start"
+          >🛩 View Aircraft</a
+        >
+
+        <a
+          routerLink="getallbookings"
+          class="btn btn-outline-warning w-100 text-start"
+          >Getallbookings</a
+        >
+        <a
+          routerLink="aircraft-revenue"
+          class="btn btn-outline-warning w-100 text-start"
+          >💰Aircraft-revenue</a
+        >
+        <a
+          routerLink="upcomingflights"
+          class="btn btn-outline-warning w-100 text-start"
+          >🛫Upcomingflights</a
+        >
+      </nav>
+
+      <div class="mt-auto pt-4 border-top text-center small opacity-50">
+        Admin Panel © 2025
+      </div>
+    </div>
+
+    <!-- Right side content -->
+    <div class="col-md-9 col-lg-10 p-4 bg-light">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>

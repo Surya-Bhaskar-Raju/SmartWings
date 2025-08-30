@@ -1,0 +1,68 @@
+<div class="bookings-container">
+  <h2 class="text-center mb-4">Your Bookings</h2>
+
+  <div *ngIf="loading" class="text-center">🔄 Loading bookings...</div>
+
+  <div *ngIf="!loading && bookings.length > 0; else noBookings">
+    <div *ngFor="let booking of bookings" class="booking-card">
+      <div class="header-row">
+        <h3>{{ booking.bookingReference }}</h3>
+        <span class="status-badge" [ngClass]="{
+                'confirmed': getDisplayStatus(booking) === 'Confirmed',
+                'cancelled': getDisplayStatus(booking) === 'Cancelled',
+                'visited': getDisplayStatus(booking) === 'Visited',
+                'not-visited': getDisplayStatus(booking) === 'Not Visited'
+        }">
+        {{ getDisplayStatus(booking) }}
+      </span>
+      </div>
+
+      <div class="details-grid">
+        <div>
+          <p><strong>Flight:</strong> {{ booking.flightNumber }} ({{ booking.class }})</p>
+          <p><strong>Route:</strong> {{ booking.origin }} → {{ booking.destination }}</p>
+          <p><strong>Departure:</strong> {{ booking.departureTime | date:'medium' }}</p>
+          <p><strong>Arrival:</strong> {{ booking.arrivalTime | date:'medium' }}</p>
+
+        </div>
+        <div>
+          <p><strong>Booking Date:</strong> {{ booking.bookingDate | date:'medium' }}</p>
+          <p><strong>Passengers:</strong> {{ booking.passengerCount }}</p>
+          <p><strong>Total Fare:</strong> ₹{{ booking.totalAmount }}</p>
+        </div>
+      </div>
+
+      <div class="passenger-section">
+        <h4>Passenger Details</h4>
+        <table class="passenger-table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Gender</th>
+              <th>Age</th>
+              <th>Seat</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let p of booking.passengers">
+              <td>{{ p.fullName }}</td>
+              <td>{{ p.gender }}</td>
+              <td>{{ p.age }}</td>
+              <td>{{ p.seatNumber }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div *ngIf="canCancel(booking)" class="text-end">
+        <button *ngIf="canCancel(booking)" (click)="cancelBooking(booking.bookingReference)"><i class="fas fa-times-circle me-1"></i>
+          Cancel Booking
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <ng-template #noBookings>
+    <p class="text-center">No bookings found. <a routerLink="/user/search-flights">Search flights</a></p>
+  </ng-template>
+</div>

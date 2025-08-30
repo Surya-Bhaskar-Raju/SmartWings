@@ -1,0 +1,55 @@
+<div class="container-fluid">
+  <div class="row min-vh-100">
+    <!-- Left side menu -->
+    <div
+      class="col-md-3 col-lg-2 bg-dark text-white p-4 shadow-sm d-flex flex-column"
+    >
+      <h4 class="mb-3 border-bottom pb-2">Welcome, {{ userName }} !</h4>
+      <p class="small text-light opacity-75">
+        Book your flights at your fingertips
+      </p>
+
+      <nav class="nav flex-column mt-3 gap-2">
+        <!-- <a
+          routerLink="/user/dashboard/landingpage"
+          class="btn btn-outline-light w-100 text-start d-flex align-items-center gap-2 border-gift"
+        >
+          <i class="bi bi-gift-fill"></i> See the latest offers
+        </a> -->
+        <a
+          routerLink="/user/dashboard/search-flights"
+          class="btn btn-outline-light w-100 text-start d-flex align-items-center gap-2 border-airplane"
+        >
+          <i class="bi bi-airplane-fill"></i> ✈ View All Flights
+        </a>
+        <a
+          routerLink="/user/dashboard/viewpastbookings"
+          class="btn btn-outline-light w-100 text-start d-flex align-items-center gap-2 border-booking"
+        >
+          <i class="bi bi-journal-check"></i> ✈ View Booking History
+        </a>
+        <a
+          routerLink="/user/dashboard/searchbookingbyrefid"
+          class="btn btn-outline-light w-100 text-start d-flex align-items-center gap-2 border-search"
+        >
+          <i class="bi bi-search"></i> ✈ Search Booking by Reference ID
+        </a>
+        <a
+          routerLink="/user/dashboard/notifications"
+          class="btn btn-outline-light w-100 text-start d-flex align-items-center gap-2 border-bell"
+        >
+          <i class="bi bi-bell-fill"></i> Notifications
+        </a>
+      </nav>
+
+      <div class="mt-auto pt-4 border-top text-center small opacity-50">
+        Userdashboard Panel
+      </div>
+    </div>
+
+    <!-- Right side content -->
+    <div class="col-md-9 col-lg-10 p-4 bg-light">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>

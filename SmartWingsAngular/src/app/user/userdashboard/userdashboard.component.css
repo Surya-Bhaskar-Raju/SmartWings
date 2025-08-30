@@ -1,0 +1,19 @@
+.border-gift {
+  border-color: #ff6f61 !important; /* coral red */
+}
+
+.border-airplane {
+  border-color: #1e90ff !important; /* dodger blue */
+}
+
+.border-booking {
+  border-color: #28a745 !important; /* green */
+}
+
+.border-search {
+  border-color: #ffc107 !important; /* amber */
+}
+
+.border-bell {
+  border-color: #6610f2 !important; /* purple */
+}

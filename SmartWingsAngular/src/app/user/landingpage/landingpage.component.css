@@ -1,0 +1,107 @@
+.landing-wrapper {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.hero-section {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to right, #4a90e2, #145cae);
+  color: white;
+  padding: 3rem;
+  border-radius: 12px;
+  margin-bottom: 3rem;
+  overflow: hidden;
+}
+
+.hero-text {
+  max-width: 600px;
+  z-index: 2;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.hero-text p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.btn-primary {
+  background-color: #ffd700;
+  border: none;
+  padding: 0.75rem 2rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #145cae;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #e6c200;
+}
+
+.hero-image {
+  width: 50%;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  margin-left: 3rem;
+}
+
+.offers-section {
+  text-align: center;
+}
+
+.offers-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.offers-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.offer-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding-bottom: 1rem;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.offer-card:hover {
+  transform: translateY(-8px);
+}
+
+.offer-card img {
+  width: 100%;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.offer-card h3 {
+  margin: 1rem 0 0.5rem 0;
+  font-weight: 700;
+}
+
+.offer-card p {
+  font-size: 1rem;
+  padding: 0 1rem;
+  color: #555;
+}

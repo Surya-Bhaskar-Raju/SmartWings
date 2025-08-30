@@ -1,0 +1,204 @@
+.home-container {
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  color: #333;
+}
+
+/* ===== HERO SECTION ===== */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 80px 8%;
+  background: linear-gradient(90deg, #0077b6, #00b4d8);
+  color: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-bottom: 60px;
+}
+
+.hero-content {
+  flex: 1;
+  max-width: 500px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+}
+
+.hero-image {
+  flex: 1;
+  text-align: right;
+}
+
+.hero-image img {
+  max-width: 400px;
+  width: 100%;
+}
+
+.cta-btn {
+  padding: 14px 30px;
+  background-color: #ffba08;
+  color: black;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: #faa307;
+}
+
+/* ===== DESTINATIONS SECTION ===== */
+.destinations {
+  padding: 60px 8%;
+}
+
+.destinations h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2rem;
+}
+
+.destination-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+}
+
+.destination-card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease;
+}
+
+.destination-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.destination-card h3 {
+  padding: 12px;
+  font-size: 1.1rem;
+}
+
+.destination-card:hover {
+  transform: translateY(-5px);
+}
+
+/* ===== TESTIMONIALS SECTION ===== */
+.testimonials {
+  background-color: #f8f9fa;
+  padding: 60px 8%;
+}
+
+.testimonials h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2rem;
+}
+
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+.testimonial-card {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.08);
+  font-style: italic;
+  min-height: 160px;
+}
+
+.testimonial-card h4 {
+  margin-top: 15px;
+  font-style: normal;
+  font-weight: bold;
+}
+
+/* ===== CTA SECTION ===== */
+.cta-section {
+  text-align: center;
+  padding: 80px 8%;
+  background: linear-gradient(90deg, #00c6ff, #0072ff);
+  color: white;
+  border-radius: 10px;
+  margin-top: 60px;
+}
+
+.cta-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.cta-section p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+  .hero-image {
+    text-align: center;
+  }
+}
+
+/* ===== FOOTER ===== */
+.footer {
+  background-color: #0077b6; /* Matches your hero section blue */
+  color: white;
+  padding: 20px 8%;
+  margin-top: 60px;
+  border-radius: 8px 8px 0 0;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 8px;
+}
+
+.footer-content p {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.footer-content a {
+  color: #ffba08; /* Yellow accent */
+  text-decoration: none;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive footer */
+@media (max-width: 600px) {
+  .footer {
+    padding: 20px 5%;
+  }
+}

@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="DTO\NotificationDto.cs" />
+    <Compile Remove="DTO\PaymentRequestDto.cs" />
+    <Compile Remove="DTO\PaymentResultDto.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="DTO\NotificationDTOcs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SmartWings.Domain\SmartWings.Domain.csproj" />
+    <ProjectReference Include="..\SmartWings.Infrastructure\SmartWings.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Net.Mail" Version="1.0.0-rtm-00002" />
+  </ItemGroup>
+
+</Project>

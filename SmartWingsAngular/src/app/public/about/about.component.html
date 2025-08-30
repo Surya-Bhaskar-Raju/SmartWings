@@ -1,0 +1,40 @@
+<section class="about-container">
+  <!-- Text Content -->
+  <div class="about-content">
+    <h1>{{ title }}</h1>
+    <p>{{ description }}</p>
+    <p>{{ moreInfo }}</p>
+
+    <div class="about-highlights">
+      <div class="highlight-card" *ngFor="let item of highlights">
+        <h3>{{ item.title }}</h3>
+        <p>{{ item.text }}</p>
+      </div>
+    </div>
+
+    
+  </div>
+
+  <!-- About Image -->
+  <div class="about-image">
+    <img src="assets/about.jpg" alt="About Smart Wings">
+  </div>
+</section>
+
+<!-- Team Section -->
+<section class="team-section">
+  <h2>Meet Our Team</h2>
+  <div class="team-container">
+    <div class="team-card" *ngFor="let member of teamMembers">
+      <img [src]="member.img" [alt]="member.name">
+      <h3>{{ member.name }}</h3>
+      <p>{{ member.role }}</p>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-content">
+    <p>Email: <a href="mailto:support@smartwings.com">support&#64;smartwings.com</a></p>
+  </div>
+</footer>

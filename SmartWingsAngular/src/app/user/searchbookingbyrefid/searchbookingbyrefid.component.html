@@ -1,0 +1,30 @@
+<div class="container mt-4">
+  <h2>Track Your Booking</h2>
+
+  <div class="mb-3">
+    <input [(ngModel)]="referenceId" placeholder="Enter Booking Reference" class="form-control" />
+    <button (click)="searchBooking()" class="btn btn-primary mt-2">Search</button>
+  </div>
+
+  <div *ngIf="loading">Loading booking details...</div>
+  <div *ngIf="errorMessage" class="text-danger">{{ errorMessage }}</div>
+
+  <div *ngIf="booking" class="booking-card mt-4">
+    <h3>{{ booking.bookingReference }}</h3>
+    <p><strong>Flight:</strong> {{ booking.flightNumber }} | <strong>Class:</strong> {{ booking.class }}</p>
+    <p><strong>Route:</strong> {{ booking.origin }} → {{ booking.destination }}</p>
+    <p><strong>Status:</strong> {{ booking.status }}</p>
+    <p><strong>Booking Date:</strong> {{ booking.bookingDate | date:'medium' }}</p>
+    <p><strong>Departure:</strong> {{ booking.departureTime | date:'medium' }}</p>
+    <p><strong>Arrival:</strong> {{ booking.arrivalTime | date:'medium' }}</p>
+    <p><strong>Passengers:</strong> {{ booking.passengerCount }}</p>
+    <p><strong>Total:</strong> ₹{{ booking.totalAmount }}</p>
+
+   <h4>Passenger Details</h4>
+      <ul>
+        <li *ngFor="let p of booking.passengers">
+          {{ p.fullName }} ({{ p.gender }}, {{ p.age }} yrs) — Seat : {{ p.seatNumber }}
+        </li>
+      </ul>
+  </div>
+</div>

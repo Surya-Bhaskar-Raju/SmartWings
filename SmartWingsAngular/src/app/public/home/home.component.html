@@ -1,0 +1,47 @@
+<div class="home-container">
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>{{ title }}</h1>
+      <p>{{ subtitle }}</p>
+      <button class="cta-btn" (click)="onCTAClick()">{{ ctaText }}</button>
+    </div>
+    <div class="hero-image">
+      <img src="assets/Homee1.png" alt="Flight booking illustration" />
+    </div>
+  </section>
+
+  <!-- Destinations Section -->
+  <section class="destinations">
+    <h2>Popular Destinations</h2>
+    <div class="destination-grid">
+      <div class="destination-card" *ngFor="let destination of destinations">
+        <img [src]="destination.image" [alt]="destination.name" />
+        <h3>{{ destination.name }}</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials">
+    <h2>What Our Customers Say</h2>
+    <div class="testimonial-grid">
+      <div class="testimonial-card" *ngFor="let review of testimonials">
+        <p>"{{ review.feedback }}"</p>
+        <h4>- {{ review.name }}</h4>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call-to-Action Section -->
+  <section class="cta-section">
+    <h2>Ready to take off?</h2>
+    <p>Join thousands of happy travelers and book your next adventure now.</p>
+    <button class="cta-btn" (click)="onCTAClick()">Get Started</button>
+  </section>
+</div>
+<footer class="footer">
+  <div class="footer-content">
+    <p>Email: <a href="mailto:support@smartwings.com">support&#64;smartwings.com</a></p>
+  </div>
+</footer>

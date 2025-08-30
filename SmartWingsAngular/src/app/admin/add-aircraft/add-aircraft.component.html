@@ -1,0 +1,60 @@
+<div class="add-aircraft-container">
+  <h2>Add New Aircraft</h2>
+
+  <form (ngSubmit)="addAircraft()" #aircraftForm="ngForm">
+    <!-- Model -->
+    <div class="form-group">
+      <label for="model">Aircraft Model:</label>
+      <input
+        type="text"
+        id="model"
+        name="model"
+        [(ngModel)]="aircraft.model"
+        required
+      />
+    </div>
+
+    <!-- Total Seats -->
+    <div class="form-group">
+      <label for="totalSeats">Total Seats:</label>
+      <input
+        type="number"
+        id="totalSeats"
+        name="totalSeats"
+        [(ngModel)]="aircraft.totalSeats"
+        required
+      />
+    </div>
+
+    <!-- Economy Seats -->
+    <div class="form-group">
+      <label for="economySeats">Economy Seats:</label>
+      <input
+        type="number"
+        id="economySeats"
+        name="economySeats"
+        [(ngModel)]="aircraft.economySeats"
+        required
+      />
+    </div>
+
+    <!-- Business Seats -->
+    <div class="form-group">
+      <label for="businessSeats">Business Seats:</label>
+      <input
+        type="number"
+        id="businessSeats"
+        name="businessSeats"
+        [(ngModel)]="aircraft.businessSeats"
+        required
+      />
+    </div>
+    <!-- Submit Button -->
+    <button type="submit">Add Aircraft</button>
+  </form>
+  <!-- Success Message -->
+  <div *ngIf="isAdded" class="alert alert-success success" >
+    Aircraft added successfully!
+  </div>
+</div>
+

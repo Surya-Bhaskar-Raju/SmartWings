@@ -1,0 +1,40 @@
+<!--
+  This component template is used for adding or editing an aircraft.
+  It displays a form with fields for model, total seats, economy seats, and business seats.
+  The form uses Angular's two-way binding and template-driven forms.
+--> 
+
+<div class="add-aircraft-container">
+  <!-- Heading changes based on edit or add mode -->
+  <h2>{{ isEditMode ? 'Edit Aircraft' : 'Add New Aircraft' }}</h2>
+
+  <!-- Aircraft form, submits to saveAircraft() -->
+  <form (ngSubmit)="saveAircraft()" #aircraftForm="ngForm">
+    <!-- Model input field -->
+    <div class="form-group">
+      <label>Model</label>
+      <input type="text" [(ngModel)]="aircraft.model" name="model" required />
+    </div>
+
+    <!-- Total Seats input field -->
+    <div class="form-group">
+      <label>Total Seats</label>
+      <input type="number" [(ngModel)]="aircraft.totalSeats" name="totalSeats" required />
+    </div>
+
+    <!-- Economy Seats input field -->
+    <div class="form-group">
+      <label>Economy Seats</label>
+      <input type="number" [(ngModel)]="aircraft.economySeats" name="economySeats" required />
+    </div>
+
+    <!-- Business Seats input field -->
+    <div class="form-group">
+      <label>Business Seats</label>
+      <input type="number" [(ngModel)]="aircraft.businessSeats" name="businessSeats" required />
+    </div>
+
+    <!-- Save button to submit the form -->
+    <button type="submit" class="btn btn-primary">Save</button>
+  </form>
+</div>

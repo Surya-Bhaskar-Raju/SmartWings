@@ -1,0 +1,28 @@
+<!-- Loader -->
+<div *ngIf="isLoading" class="loading-inline">
+  <div class="spinner"></div>
+  <p>Please wait, Retrieving flights...</p>
+</div>
+
+<div class="container mt-4">
+  <div class="row">
+    <div *ngFor="let flight of flights" class="col-md-4 mb-4">
+      <div class="card shadow-sm h-100">
+        <div class="card-header bg-primary text-white">
+          <h5 class="mb-0">
+            {{ flight.flightNumber }} - {{ flight.aircraftModel }}
+          </h5>
+        </div>
+        <div class="card-body">
+          <p><strong>Origin:</strong> {{ flight.origin }}</p>
+          <p><strong>Destination:</strong> {{ flight.destination }}</p>
+          <p>
+            <strong>Departure Time:</strong>
+            {{ flight.departureTime | date : "medium" }}
+          </p>
+          <p><strong>Available Seats:</strong> {{ flight.availableSeats }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

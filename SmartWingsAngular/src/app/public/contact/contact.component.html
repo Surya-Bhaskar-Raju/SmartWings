@@ -1,0 +1,55 @@
+<section class="contact-container">
+  <!-- Left: Contact Info -->
+  <div class="contact-info">
+    <h1>Contact Smart Wings</h1>
+    <p>
+      Have questions, feedback, or need help with your booking?  
+      We’re here to assist you 24/7.
+    </p>
+
+    <div class="contact-cards">
+      <div class="contact-card" *ngFor="let info of contactInfo">
+        <span class="icon">{{ info.icon }}</span>
+        <div>
+          <h3>{{ info.title }}</h3>
+          <p>{{ info.text }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Right: Contact Form -->
+  <div class="contact-form">
+    <h2>Send Us a Message</h2>
+    <form (ngSubmit)="onSubmit()" #contactForm="ngForm">
+      <input
+        type="text"
+        name="name"
+        [(ngModel)]="formData.name"
+        placeholder="Your Name"
+        required
+      />
+      <input
+        type="email"
+        name="email"
+        [(ngModel)]="formData.email"
+        placeholder="Your Email"
+        required
+      />
+      <textarea
+        name="message"
+        [(ngModel)]="formData.message"
+        placeholder="Your Message"
+        rows="5"
+        required
+      ></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-content">
+    <p>Email: <a href="mailto:support@smartwings.com">support&#64;smartwings.com</a></p>
+  </div>
+</footer>

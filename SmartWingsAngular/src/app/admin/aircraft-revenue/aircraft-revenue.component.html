@@ -1,0 +1,41 @@
+<div class="container mt-4" style="max-width: 400px">
+  <h3>Check Aircraft Revenue</h3>
+
+  <!-- Dropdown for selecting aircraft -->
+  <div class="mb-3">
+    <select
+      class="form-select"
+      [(ngModel)]="aircraftModel"
+      name="aircraftModel"
+    >
+      <option value="" disabled selected>Select Aircraft Model</option>
+      <option *ngFor="let aircraft of aircraftList" [value]="aircraft.model">
+        {{ aircraft.model }} (Seats: {{ aircraft.totalSeats }})
+      </option>
+    </select>
+  </div>
+
+  <button
+    class="btn btn-primary mb-3"
+    (click)="getRevenue()"
+    [disabled]="loading"
+  >
+    {{ loading ? "Loading..." : "Get Revenue" }}
+  </button>
+
+  <div *ngIf="errorMessage" class="alert alert-danger">
+    {{ errorMessage }}
+  </div>
+
+  <div *ngIf="revenue !== null" class="card text-center">
+    <div class="card-header">
+      {{ aircraftModel }}
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">Total Revenue</h5>
+      <p class="card-text display-6">
+        {{ revenue | currency : "USD" : "symbol" : "1.0-0" }}
+      </p>
+    </div>
+  </div>
+</div>

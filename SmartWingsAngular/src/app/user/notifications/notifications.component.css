@@ -1,0 +1,9 @@
+.list-group-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.badge {
+  font-size: 0.8rem;
+  padding: 0.35em 0.6em;
+}

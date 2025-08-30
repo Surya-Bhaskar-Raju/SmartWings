@@ -1,0 +1,129 @@
+.booking-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #f9f9fc;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.booking-container h2 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+.booking-container h3 {
+  margin-top: 30px;
+  color: #34495e;
+}
+
+.booking-container p {
+  font-size: 16px;
+  margin: 8px 0;
+}
+
+input, select {
+  display: block;
+  width: 100%;
+  padding: 10px 12px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  background-color: #fff;
+  transition: border-color 0.3s ease;
+}
+
+input:focus, select:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+label {
+  font-weight: 600;
+  margin-top: 20px;
+  display: block;
+  color: #2c3e50;
+}
+
+hr {
+  margin: 20px 0;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+button:disabled {
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+}
+
+.passenger-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.passenger-fields {
+  flex: 1;
+}
+
+.delete-passenger-btn {
+  background-color: #ffebee; /* light red background */
+  border: none;
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.delete-passenger-btn .material-symbols-outlined {
+  font-size: 22px;
+  color: #e53935; /* material red */
+}
+
+.delete-passenger-btn:hover {
+  background-color: #ffcdd2; /* darker red shade on hover */
+  transform: scale(1.1);
+}
+
+.delete-passenger-btn:active {
+  transform: scale(0.95);
+}
+
+
+
+@media (max-width: 600px) {
+  .booking-container {
+    padding: 20px;
+  }
+
+  input, select {
+    font-size: 14px;
+  }
+
+  button {
+    width: 100%;
+  }
+}

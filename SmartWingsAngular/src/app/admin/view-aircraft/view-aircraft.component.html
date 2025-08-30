@@ -1,0 +1,26 @@
+<!--
+  Displays a list of available aircrafts.
+  Each aircraft card shows model, seat details, and provides edit/delete actions.
+  Uses Angular's *ngFor for dynamic listing and event binding for actions.
+-->
+
+<h2 class="section-title">Available Aircrafts</h2>
+
+<div class="aircraft-list">
+  <div class="aircraft-card" *ngFor="let aircraft of aircrafts">
+    <div class="aircraft-details">
+      <h3 class="aircraft-model">{{ aircraft.model }}</h3>
+      <div class="aircraft-stats">
+        <span>Total: {{ aircraft.totalSeats }}</span>
+        <span>Economy: {{ aircraft.economySeats }}</span>
+        <span>Business: {{ aircraft.businessSeats }}</span>
+      </div>
+    </div>
+    <div class="aircraft-actions">
+      <!-- Edit button triggers editAircraft with aircraft ID -->
+      <button (click)="editAircraft(aircraft.airCraftId)" class="btn btn-primary">✏ Edit</button>
+      <!-- Delete button triggers deleteAircraft with aircraft ID -->
+      <button (click)="deleteAircraft(aircraft.airCraftId)" class="btn btn-danger">🗑 Delete</button>
+    </div>
+  </div>
+</div>

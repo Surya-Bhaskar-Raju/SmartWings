@@ -1,0 +1,72 @@
+<h2 class="page-title">Add Flight</h2>
+<!-- Flight addition form -->
+<div class="card">
+  <form (ngSubmit)="addFlight()" #flightForm="ngForm" class="form-grid">
+    <!-- Flight Number -->
+    <div class="form-field">
+      <label for="flightNumber">Flight Number</label>
+      <input class="input" id="flightNumber" [(ngModel)]="newFlight.flightNumber" name="flightNumber" required />
+    </div>
+    <!-- Origin -->
+    <div class="form-field">
+      <label for="origin">Origin</label>
+      <select [(ngModel)]="newFlight.origin" name="origin" required>
+        <option *ngFor="let city of cities" [value]="city">{{ city }}</option>
+      </select>
+
+    </div>
+    <!-- Destination -->
+    <div class="form-field">
+      <label for="destination">Destination</label>
+      <select [(ngModel)]="newFlight.destination" name="destination" required>
+        <option *ngFor="let city of cities" [value]="city">{{ city }}</option>
+      </select>
+    </div>
+    <!-- Departure and Arrival Times -->
+    <div class="form-field">
+      <label for="departureTime">Departure Time</label>
+      <input class="input" type="datetime-local" id="departureTime" [(ngModel)]="newFlight.departureTime" name="departureTime" required />
+    </div>
+
+    <div class="form-field">
+      <label for="arrivalTime">Arrival Time</label>
+      <input class="input" type="datetime-local" id="arrivalTime" [(ngModel)]="newFlight.arrivalTime" name="arrivalTime" required />
+    </div>
+    <!-- Aircraft Selection -->
+    <div class="form-field">
+      <label for="aircraftId">Aircraft</label>
+      <select class="input select" id="aircraftId" [(ngModel)]="newFlight.aircraftId" name="aircraftId" required>
+        <option value="" disabled selected>Select Aircraft</option>
+        <option *ngFor="let aircraft of aircraftList" [value]="aircraft.airCraftId">
+          {{ aircraft.model }}
+        </option>
+      </select>
+    </div>
+    <!-- Status -->
+    <div class="form-field">
+      <label for="status">Status</label>
+      <select class="input select" id="status" [(ngModel)]="newFlight.status" name="status">
+        <option value="Scheduled">Available</option>
+        <option value="Cancelled">Cancelled</option>
+        <option value="Delayed">Delayed</option>
+      </select>
+    </div>
+    <!-- Price Economy -->
+    <div class="form-field">
+      <label for="priceEconomy">Price Economy</label>
+      <input class="input" type="number" id="priceEconomy" [(ngModel)]="newFlight.priceEconomy" name="priceEconomy" required />
+    </div>
+    <!-- Price Business -->
+    <div class="form-field">
+      <label for="priceBusiness">Price Business</label>
+      <input class="input" type="number" id="priceBusiness" [(ngModel)]="newFlight.priceBusiness" name="priceBusiness" required />
+    </div>
+    <!-- Submit Button -->
+    <div class="form-actions">
+      <button class="btn" type="submit">Add Flight</button>
+    </div>
+  </form>
+  <!-- Success or Error Message -->
+  <p *ngIf="!errorMessage && isAdded" class="alert success">{{ successMessage }}</p>
+  <p *ngIf="errorMessage" class="alert error">{{ errorMessage }}</p>
+</div>

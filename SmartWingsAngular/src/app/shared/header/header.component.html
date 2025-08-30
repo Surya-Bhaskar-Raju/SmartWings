@@ -1,0 +1,55 @@
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark shadow-sm" style="background: linear-gradient(90deg, #007bff, #0056b3)">
+  <div class="container">
+    <!-- Brand with Icon -->
+    <a class="navbar-brand fw-bold d-flex align-items-center" routerLink="/home" style="font-size: 1.4rem">
+      <i class="fas fa-plane-departure me-2" style="font-size: 1.6rem"></i>
+      SmartWings
+    </a>
+
+    <!-- Toggler -->
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span><i class="fas fa-bars" style="color: white; font-size: 1.4rem"></i></span>
+    </button>
+
+    <!-- Menu -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto align-items-lg-center">
+        <li class="nav-item" *ngIf="showDashboardUser || !isLoggedIn">
+          <a class="nav-link px-3 fw-semibold" routerLink="/home">Home</a>
+        </li>
+        <li class="nav-item" *ngIf="showDashboardUser || !isLoggedIn">
+          <a class="nav-link px-3 fw-semibold" routerLink="/about">About</a>
+        </li>
+        <li class="nav-item" *ngIf="showDashboardUser || !isLoggedIn">
+          <a class="nav-link px-3 fw-semibold" routerLink="/contact">Contact</a>
+        </li>
+
+        <!-- Login -->
+        <li class="nav-item ms-lg-3" *ngIf="!isLoggedIn && !isOnLoginPage">
+          <a class="btn btn-light fw-semibold px-3" style="border-radius: 20px" routerLink="/login">
+            <i class="fas fa-sign-in-alt me-1"></i> Login
+          </a>
+        </li>
+
+        <!-- Dashboard (only if logged in AND role is 'User') -->
+        <li class="nav-item ms-lg-3" *ngIf="showDashboardUser">
+          <a class="nav-link px-3 fw-semibold" routerLink="/user/dashboard">Dashboard</a>
+        </li>
+
+        <!-- Dashboard (only if logged in AND role is 'Admin') -->
+        <li class="nav-item ms-lg-3" *ngIf="showDashboardAdmin">
+          <a class="nav-link px-3 fw-semibold" routerLink="/admin/dashboard">Dashboard</a>
+        </li>
+
+        <!-- Logout -->
+        <li class="nav-item ms-lg-3" *ngIf="isLoggedIn">
+          <button class="btn btn-danger fw-semibold px-3" style="border-radius: 20px" (click)="logout()" type="button">
+            <i class="fas fa-sign-out-alt me-1"></i> Logout
+          </button>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,142 @@
+<div class="container mt-4 booking-container">
+  <h2 class="mb-3 text-primary">Search Bookings</h2>
+
+  <!-- Search Form -->
+  <form
+    #searchForm="ngForm"
+    (ngSubmit)="getAllBookings()"
+    class="row g-3 search-form"
+  >
+    <div class="col-md-4">
+      <!-- Aircraft Model Dropdown -->
+      <label for="AircraftModel" class="form-label text-light"
+        >Aircraft Model</label
+      >
+      <select
+        id="AircraftModel"
+        [(ngModel)]="aircraftModel"
+        name="aircraftModel"
+        #aircraftModelCtrl="ngModel"
+        class="form-control custom-input"
+        (change)="onAircraftChange()"
+        required
+      >
+        <option value="" disabled>Select the model</option>
+        <option *ngFor="let a of aircrafts" [value]="a.model">
+          {{ a.model }}
+        </option>
+      </select>
+      <!-- Validation -->
+      <span
+        class="text-danger small"
+        *ngIf="aircraftModelCtrl.invalid && aircraftModelCtrl.touched"
+      >
+        Aircraft Model is required.
+      </span>
+
+      <!-- Flight Number Dropdown -->
+      <label for="flightNumber" class="form-label text-light mt-3"
+        >Flight Number</label
+      >
+      <select
+        id="flightNumber"
+        [(ngModel)]="flightNumber"
+        name="flightNumber"
+        #flightNumberCtrl="ngModel"
+        class="form-control custom-input"
+        [disabled]="!aircraftModel"
+        required
+      >
+        <option value="" disabled>Select a Flight</option>
+        <option *ngFor="let f of flights" [value]="f.flightNumber">
+          {{ f.flightNumber }}
+        </option>
+      </select>
+      <!-- Validation -->
+      <span
+        class="text-danger small"
+        *ngIf="flightNumberCtrl.invalid && flightNumberCtrl.touched"
+      >
+        Flight Number is required.
+      </span>
+    </div>
+
+    <div class="col-md-4">
+      <label for="departureDate" class="form-label text-light"
+        >Departure Date</label
+      >
+      <input
+        type="date"
+        id="departureDate"
+        [(ngModel)]="departureDate"
+        name="departureDate"
+        class="form-control custom-input"
+      />
+    </div>
+
+    <div class="col-md-4 d-flex align-items-end">
+      <button
+        type="submit"
+        class="btn btn-primary w-100 custom-btn"
+        [disabled]="!searchForm.valid"
+      >
+        Search
+      </button>
+    </div>
+  </form>
+
+  <!-- Results -->
+  <div *ngIf="bookings.length > 0" class="mt-4">
+    <h4 class="text-info">Bookings for Flight {{ flightNumber }}</h4>
+    <div *ngFor="let booking of bookings" class="card mt-3 shadow booking-card">
+      <div class="card-body">
+        <h5 class="card-title text-primary">
+          {{ booking.flightNumber }} - {{ booking.origin }} →
+          {{ booking.destination }}
+        </h5>
+        <p><strong>Booking refID:</strong> {{ booking.bookingReferenceId }}</p>
+        <p>
+          <strong>Departure:</strong>
+          {{ booking.departureTime | date : "short" }}
+        </p>
+        <p>
+          <strong>Booked By:</strong> {{ booking.userName }} ({{
+            booking.email
+          }})
+        </p>
+        <p><strong>Price:</strong> ₹{{ booking.price }}</p>
+        <p><strong>Status:</strong> {{ booking.status }}</p>
+
+        <!-- Passenger List -->
+        <div *ngIf="booking.passengers.length > 0" class="mt-2">
+          <h6 class="text-info">Passengers:</h6>
+          <ul class="list-group custom-list">
+            <li
+              *ngFor="let passenger of booking.passengers"
+              class="list-group-item custom-list-item"
+            >
+              {{ passenger.fullName }} ({{ passenger.gender }},
+              {{ passenger.age }} yrs) - Seat: {{ passenger.seatNumber }} ({{
+                passenger.seatClass
+              }})
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- No Results -->
+  <div
+    *ngIf="bookings.length === 0 && flightNumber"
+    class="mt-4 alert alert-dark text-warning"
+  >
+    No bookings found for flight {{ flightNumber }}
+  </div>
+
+  <div *ngIf="bookings.length > 0" class="mt-3">
+    <button class="btn btn-success" (click)="exportToPDF()">
+      Export to PDF
+    </button>
+  </div>
+</div>

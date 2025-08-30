@@ -1,0 +1,50 @@
+<div class="payment-container">
+  <h2>Confirm Payment</h2>
+
+  <div class="amount-section">
+    <label>Total Amount:</label>
+    <span class="amount">₹{{ amount }}</span>
+  </div>
+
+  <form (ngSubmit)="processPayment()" #paymentForm="ngForm">
+    <div class="form-group">
+      <label for="method">Payment Method:</label>
+      <select id="method" [(ngModel)]="paymentMethod" name="paymentMethod" required>
+        <option value="" disabled>Select Method</option>
+        <option value="UPI">UPI</option>
+        <option value="Credit Card">Credit Card</option>
+      </select>
+    </div>
+
+    <div *ngIf="paymentMethod === 'UPI'" class="form-group">
+      <label for="upiId">UPI ID:</label>
+      <input type="text" id="upiId" [(ngModel)]="upiId" name="upiId" required placeholder="e.g. user@bank" />
+    </div>
+
+    <div *ngIf="paymentMethod === 'Credit Card'" class="card-section">
+      <div class="form-group">
+        <label for="cardNumber">Card Number:</label>
+        <input type="text" id="cardNumber" [(ngModel)]="cardNumber" name="cardNumber" maxlength="16" required placeholder="XXXX XXXX XXXX XXXX" />
+      </div>
+
+      <div class="form-group">
+        <label for="cvv">CVV:</label>
+        <input type="password" id="cvv" [(ngModel)]="cvv" name="cvv" maxlength="3" required />
+      </div>
+    </div>
+
+    <button type="submit" class="pay-button" [disabled]="isProcessing">
+      {{ isProcessing ? 'Processing...' : 'Pay Now' }}
+    </button>
+  </form>
+</div>
+
+<!-- Success Modal -->
+<div class="modal-backdrop" *ngIf="showSuccessModal">
+  <div class="modal">
+    <h3>🎉 Booking Successful!</h3>
+    <p>Your payment has been processed successfully.</p>
+    <p>A confirmation email has been sent to your registered email ID.</p>
+    <button (click)="closeModal()">View Booking Details</button>
+  </div>
+</div>

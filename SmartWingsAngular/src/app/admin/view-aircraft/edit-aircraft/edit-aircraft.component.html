@@ -1,0 +1,27 @@
+<div class="add-aircraft-container">
+  <h2>{{ isEditMode ? 'Edit Aircraft' : 'Add New Aircraft' }}</h2>
+
+  <form (ngSubmit)="saveAircraft()" #aircraftForm="ngForm">
+    <div class="form-group">
+      <label>Model</label>
+      <input type="text" [(ngModel)]="aircraft.model" name="model" required />
+    </div>
+
+    <div class="form-group">
+      <label>Total Seats</label>
+      <input type="number" [(ngModel)]="aircraft.totalSeats" name="totalSeats" required />
+    </div>
+
+    <div class="form-group">
+      <label>Economy Seats</label>
+      <input type="number" [(ngModel)]="aircraft.economySeats" name="economySeats" required />
+    </div>
+
+    <div class="form-group">
+      <label>Business Seats</label>
+      <input type="number" [(ngModel)]="aircraft.businessSeats" name="businessSeats" required />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+  </form>
+</div>
