@@ -1,0 +1,1149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.application\\dto\\dashboardbookingdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|solutionrelative:smartwings.application\\dto\\dashboardbookingdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.application\\services\\admindashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|solutionrelative:smartwings.application\\services\\admindashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65D11E69-238F-4F07-BAAF-1D66BEEC92AF}|SmartWings.Infrastructure\\SmartWings.Infrastructure.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.infrastructure\\repositories\\admindashboardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65D11E69-238F-4F07-BAAF-1D66BEEC92AF}|SmartWings.Infrastructure\\SmartWings.Infrastructure.csproj|solutionrelative:smartwings.infrastructure\\repositories\\admindashboardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.application\\dto\\flightwithmodeldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|solutionrelative:smartwings.application\\dto\\flightwithmodeldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.application\\contracts\\iadmindashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|solutionrelative:smartwings.application\\contracts\\iadmindashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCBAA7B4-544C-40FE-BB45-6702A82060F9}|SmartWings.API\\SmartWings.API.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.api\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCBAA7B4-544C-40FE-BB45-6702A82060F9}|SmartWings.API\\SmartWings.API.csproj|solutionrelative:smartwings.api\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65D11E69-238F-4F07-BAAF-1D66BEEC92AF}|SmartWings.Infrastructure\\SmartWings.Infrastructure.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.infrastructure\\contracts\\iadmindashboardcontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65D11E69-238F-4F07-BAAF-1D66BEEC92AF}|SmartWings.Infrastructure\\SmartWings.Infrastructure.csproj|solutionrelative:smartwings.infrastructure\\contracts\\iadmindashboardcontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1ED03B6-DFB1-4120-8BDF-8C5C7EB4FC89}|SmartWings.Domain\\SmartWings.Domain.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.domain\\aircraft.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1ED03B6-DFB1-4120-8BDF-8C5C7EB4FC89}|SmartWings.Domain\\SmartWings.Domain.csproj|solutionrelative:smartwings.domain\\aircraft.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCBAA7B4-544C-40FE-BB45-6702A82060F9}|SmartWings.API\\SmartWings.API.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.api\\controllers\\flightcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCBAA7B4-544C-40FE-BB45-6702A82060F9}|SmartWings.API\\SmartWings.API.csproj|solutionrelative:smartwings.api\\controllers\\flightcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCBAA7B4-544C-40FE-BB45-6702A82060F9}|SmartWings.API\\SmartWings.API.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.api\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCBAA7B4-544C-40FE-BB45-6702A82060F9}|SmartWings.API\\SmartWings.API.csproj|solutionrelative:smartwings.api\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCBAA7B4-544C-40FE-BB45-6702A82060F9}|SmartWings.API\\SmartWings.API.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FCBAA7B4-544C-40FE-BB45-6702A82060F9}|SmartWings.API\\SmartWings.API.csproj|solutionrelative:smartwings.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCBAA7B4-544C-40FE-BB45-6702A82060F9}|SmartWings.API\\SmartWings.API.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.api\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCBAA7B4-544C-40FE-BB45-6702A82060F9}|SmartWings.API\\SmartWings.API.csproj|solutionrelative:smartwings.api\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65D11E69-238F-4F07-BAAF-1D66BEEC92AF}|SmartWings.Infrastructure\\SmartWings.Infrastructure.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.infrastructure\\contracts\\ibookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65D11E69-238F-4F07-BAAF-1D66BEEC92AF}|SmartWings.Infrastructure\\SmartWings.Infrastructure.csproj|solutionrelative:smartwings.infrastructure\\contracts\\ibookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65D11E69-238F-4F07-BAAF-1D66BEEC92AF}|SmartWings.Infrastructure\\SmartWings.Infrastructure.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.infrastructure\\repositories\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65D11E69-238F-4F07-BAAF-1D66BEEC92AF}|SmartWings.Infrastructure\\SmartWings.Infrastructure.csproj|solutionrelative:smartwings.infrastructure\\repositories\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.application\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|solutionrelative:smartwings.application\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65D11E69-238F-4F07-BAAF-1D66BEEC92AF}|SmartWings.Infrastructure\\SmartWings.Infrastructure.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.infrastructure\\contracts\\iflightrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65D11E69-238F-4F07-BAAF-1D66BEEC92AF}|SmartWings.Infrastructure\\SmartWings.Infrastructure.csproj|solutionrelative:smartwings.infrastructure\\contracts\\iflightrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1ED03B6-DFB1-4120-8BDF-8C5C7EB4FC89}|SmartWings.Domain\\SmartWings.Domain.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.domain\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1ED03B6-DFB1-4120-8BDF-8C5C7EB4FC89}|SmartWings.Domain\\SmartWings.Domain.csproj|solutionrelative:smartwings.domain\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1ED03B6-DFB1-4120-8BDF-8C5C7EB4FC89}|SmartWings.Domain\\SmartWings.Domain.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.domain\\passenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1ED03B6-DFB1-4120-8BDF-8C5C7EB4FC89}|SmartWings.Domain\\SmartWings.Domain.csproj|solutionrelative:smartwings.domain\\passenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1ED03B6-DFB1-4120-8BDF-8C5C7EB4FC89}|SmartWings.Domain\\SmartWings.Domain.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.domain\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1ED03B6-DFB1-4120-8BDF-8C5C7EB4FC89}|SmartWings.Domain\\SmartWings.Domain.csproj|solutionrelative:smartwings.domain\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1ED03B6-DFB1-4120-8BDF-8C5C7EB4FC89}|SmartWings.Domain\\SmartWings.Domain.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.domain\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1ED03B6-DFB1-4120-8BDF-8C5C7EB4FC89}|SmartWings.Domain\\SmartWings.Domain.csproj|solutionrelative:smartwings.domain\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.application\\services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|solutionrelative:smartwings.application\\services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.application\\services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|solutionrelative:smartwings.application\\services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.application\\services\\flightservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|solutionrelative:smartwings.application\\services\\flightservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.application\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|solutionrelative:smartwings.application\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.application\\contracts\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|solutionrelative:smartwings.application\\contracts\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.application\\dto\\paymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|solutionrelative:smartwings.application\\dto\\paymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.application\\dto\\passengerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|solutionrelative:smartwings.application\\dto\\passengerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.application\\dto\\notificationsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|solutionrelative:smartwings.application\\dto\\notificationsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.application\\dto\\flightdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|solutionrelative:smartwings.application\\dto\\flightdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.application\\dto\\dashboardbookingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|solutionrelative:smartwings.application\\dto\\dashboardbookingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.application\\dto\\bookingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|solutionrelative:smartwings.application\\dto\\bookingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.application\\contracts\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|solutionrelative:smartwings.application\\contracts\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.application\\contracts\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|solutionrelative:smartwings.application\\contracts\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.application\\contracts\\iflightservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|solutionrelative:smartwings.application\\contracts\\iflightservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.application\\contracts\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|solutionrelative:smartwings.application\\contracts\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCBAA7B4-544C-40FE-BB45-6702A82060F9}|SmartWings.API\\SmartWings.API.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCBAA7B4-544C-40FE-BB45-6702A82060F9}|SmartWings.API\\SmartWings.API.csproj|solutionrelative:smartwings.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCBAA7B4-544C-40FE-BB45-6702A82060F9}|SmartWings.API\\SmartWings.API.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.api\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCBAA7B4-544C-40FE-BB45-6702A82060F9}|SmartWings.API\\SmartWings.API.csproj|solutionrelative:smartwings.api\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCBAA7B4-544C-40FE-BB45-6702A82060F9}|SmartWings.API\\SmartWings.API.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCBAA7B4-544C-40FE-BB45-6702A82060F9}|SmartWings.API\\SmartWings.API.csproj|solutionrelative:smartwings.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|solutionrelative:smartwings.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCBAA7B4-544C-40FE-BB45-6702A82060F9}|SmartWings.API\\SmartWings.API.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCBAA7B4-544C-40FE-BB45-6702A82060F9}|SmartWings.API\\SmartWings.API.csproj|solutionrelative:smartwings.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|solutionrelative:smartwings.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.application\\dto\\passengerdashboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|solutionrelative:smartwings.application\\dto\\passengerdashboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.application\\contracts\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|solutionrelative:smartwings.application\\contracts\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1ED03B6-DFB1-4120-8BDF-8C5C7EB4FC89}|SmartWings.Domain\\SmartWings.Domain.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.domain\\seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1ED03B6-DFB1-4120-8BDF-8C5C7EB4FC89}|SmartWings.Domain\\SmartWings.Domain.csproj|solutionrelative:smartwings.domain\\seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1ED03B6-DFB1-4120-8BDF-8C5C7EB4FC89}|SmartWings.Domain\\SmartWings.Domain.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.domain\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1ED03B6-DFB1-4120-8BDF-8C5C7EB4FC89}|SmartWings.Domain\\SmartWings.Domain.csproj|solutionrelative:smartwings.domain\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCBAA7B4-544C-40FE-BB45-6702A82060F9}|SmartWings.API\\SmartWings.API.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FCBAA7B4-544C-40FE-BB45-6702A82060F9}|SmartWings.API\\SmartWings.API.csproj|solutionrelative:smartwings.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65D11E69-238F-4F07-BAAF-1D66BEEC92AF}|SmartWings.Infrastructure\\SmartWings.Infrastructure.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.infrastructure\\datacontext\\flightdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65D11E69-238F-4F07-BAAF-1D66BEEC92AF}|SmartWings.Infrastructure\\SmartWings.Infrastructure.csproj|solutionrelative:smartwings.infrastructure\\datacontext\\flightdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65D11E69-238F-4F07-BAAF-1D66BEEC92AF}|SmartWings.Infrastructure\\SmartWings.Infrastructure.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.infrastructure\\repositories\\flightrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65D11E69-238F-4F07-BAAF-1D66BEEC92AF}|SmartWings.Infrastructure\\SmartWings.Infrastructure.csproj|solutionrelative:smartwings.infrastructure\\repositories\\flightrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65D11E69-238F-4F07-BAAF-1D66BEEC92AF}|SmartWings.Infrastructure\\SmartWings.Infrastructure.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.infrastructure\\migrations\\20250813193422_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65D11E69-238F-4F07-BAAF-1D66BEEC92AF}|SmartWings.Infrastructure\\SmartWings.Infrastructure.csproj|solutionrelative:smartwings.infrastructure\\migrations\\20250813193422_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65D11E69-238F-4F07-BAAF-1D66BEEC92AF}|SmartWings.Infrastructure\\SmartWings.Infrastructure.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.infrastructure\\contracts\\ipaymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65D11E69-238F-4F07-BAAF-1D66BEEC92AF}|SmartWings.Infrastructure\\SmartWings.Infrastructure.csproj|solutionrelative:smartwings.infrastructure\\contracts\\ipaymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65D11E69-238F-4F07-BAAF-1D66BEEC92AF}|SmartWings.Infrastructure\\SmartWings.Infrastructure.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.infrastructure\\repositories\\paymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65D11E69-238F-4F07-BAAF-1D66BEEC92AF}|SmartWings.Infrastructure\\SmartWings.Infrastructure.csproj|solutionrelative:smartwings.infrastructure\\repositories\\paymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65D11E69-238F-4F07-BAAF-1D66BEEC92AF}|SmartWings.Infrastructure\\SmartWings.Infrastructure.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.infrastructure\\repositories\\notificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65D11E69-238F-4F07-BAAF-1D66BEEC92AF}|SmartWings.Infrastructure\\SmartWings.Infrastructure.csproj|solutionrelative:smartwings.infrastructure\\repositories\\notificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.application\\dto\\upcomingflightdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|solutionrelative:smartwings.application\\dto\\upcomingflightdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCBAA7B4-544C-40FE-BB45-6702A82060F9}|SmartWings.API\\SmartWings.API.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.api\\middleware\\exceptionmiddlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCBAA7B4-544C-40FE-BB45-6702A82060F9}|SmartWings.API\\SmartWings.API.csproj|solutionrelative:smartwings.api\\middleware\\exceptionmiddlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65D11E69-238F-4F07-BAAF-1D66BEEC92AF}|SmartWings.Infrastructure\\SmartWings.Infrastructure.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.infrastructure\\contracts\\inotificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65D11E69-238F-4F07-BAAF-1D66BEEC92AF}|SmartWings.Infrastructure\\SmartWings.Infrastructure.csproj|solutionrelative:smartwings.infrastructure\\contracts\\inotificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65D11E69-238F-4F07-BAAF-1D66BEEC92AF}|SmartWings.Infrastructure\\SmartWings.Infrastructure.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65D11E69-238F-4F07-BAAF-1D66BEEC92AF}|SmartWings.Infrastructure\\SmartWings.Infrastructure.csproj|solutionrelative:smartwings.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1ED03B6-DFB1-4120-8BDF-8C5C7EB4FC89}|SmartWings.Domain\\SmartWings.Domain.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1ED03B6-DFB1-4120-8BDF-8C5C7EB4FC89}|SmartWings.Domain\\SmartWings.Domain.csproj|solutionrelative:smartwings.domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Visual studio c#\\Case_StudyProject\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Infrastructure\\Migrations\\20250806191040_AddSeatsAndPassenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Visual studio c#\\Case_StudyProject\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Infrastructure\\Migrations\\20250806190903_AddSeatsAndPassenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65D11E69-238F-4F07-BAAF-1D66BEEC92AF}|SmartWings.Infrastructure\\SmartWings.Infrastructure.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.infrastructure\\contracts\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65D11E69-238F-4F07-BAAF-1D66BEEC92AF}|SmartWings.Infrastructure\\SmartWings.Infrastructure.csproj|solutionrelative:smartwings.infrastructure\\contracts\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.application\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|solutionrelative:smartwings.application\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.application\\dto\\routeinputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|solutionrelative:smartwings.application\\dto\\routeinputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.application\\dto\\authdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|solutionrelative:smartwings.application\\dto\\authdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.application\\dto\\aircraftdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7472EF-4046-429E-A55C-FE34BA7AF4F1}|SmartWings.Application\\SmartWings.Application.csproj|solutionrelative:smartwings.application\\dto\\aircraftdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65D11E69-238F-4F07-BAAF-1D66BEEC92AF}|SmartWings.Infrastructure\\SmartWings.Infrastructure.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.infrastructure\\repositories\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65D11E69-238F-4F07-BAAF-1D66BEEC92AF}|SmartWings.Infrastructure\\SmartWings.Infrastructure.csproj|solutionrelative:smartwings.infrastructure\\repositories\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65D11E69-238F-4F07-BAAF-1D66BEEC92AF}|SmartWings.Infrastructure\\SmartWings.Infrastructure.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.infrastructure\\contracts\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65D11E69-238F-4F07-BAAF-1D66BEEC92AF}|SmartWings.Infrastructure\\SmartWings.Infrastructure.csproj|solutionrelative:smartwings.infrastructure\\contracts\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Visual studio c#\\Case_StudyProject\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Infrastructure\\Migrations\\20250806182915_AddPassenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCBAA7B4-544C-40FE-BB45-6702A82060F9}|SmartWings.API\\SmartWings.API.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FCBAA7B4-544C-40FE-BB45-6702A82060F9}|SmartWings.API\\SmartWings.API.csproj|solutionrelative:smartwings.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCBAA7B4-544C-40FE-BB45-6702A82060F9}|SmartWings.API\\SmartWings.API.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.api\\smartwings.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{FCBAA7B4-544C-40FE-BB45-6702A82060F9}|SmartWings.API\\SmartWings.API.csproj|solutionrelative:smartwings.api\\smartwings.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCBAA7B4-544C-40FE-BB45-6702A82060F9}|SmartWings.API\\SmartWings.API.csproj|d:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\smart wings\\smartwings.api\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCBAA7B4-544C-40FE-BB45-6702A82060F9}|SmartWings.API\\SmartWings.API.csproj|solutionrelative:smartwings.api\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{02c9407d-69f0-4910-b5c7-0dff86947e95}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminDashboardservice.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\Services\\AdminDashboardservice.cs",
+              "RelativeDocumentMoniker": "SmartWings.Application\\Services\\AdminDashboardservice.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\Services\\AdminDashboardservice.cs",
+              "RelativeToolTip": "SmartWings.Application\\Services\\AdminDashboardservice.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAUwCAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T06:01:58.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IAdminDashboardService.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\Contracts\\IAdminDashboardService.cs",
+              "RelativeDocumentMoniker": "SmartWings.Application\\Contracts\\IAdminDashboardService.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\Contracts\\IAdminDashboardService.cs",
+              "RelativeToolTip": "SmartWings.Application\\Contracts\\IAdminDashboardService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T08:50:38.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dashboardcontroller.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.API\\Controllers\\Dashboardcontroller.cs",
+              "RelativeDocumentMoniker": "SmartWings.API\\Controllers\\Dashboardcontroller.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.API\\Controllers\\Dashboardcontroller.cs",
+              "RelativeToolTip": "SmartWings.API\\Controllers\\Dashboardcontroller.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAuwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T13:37:51.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminDashboardRepository.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Infrastructure\\Repositories\\AdminDashboardRepository.cs",
+              "RelativeDocumentMoniker": "SmartWings.Infrastructure\\Repositories\\AdminDashboardRepository.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Infrastructure\\Repositories\\AdminDashboardRepository.cs",
+              "RelativeToolTip": "SmartWings.Infrastructure\\Repositories\\AdminDashboardRepository.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAmwEEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T13:58:09.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DashBoardBookingDetailDto.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\DTO\\DashBoardBookingDetailDto.cs",
+              "RelativeDocumentMoniker": "SmartWings.Application\\DTO\\DashBoardBookingDetailDto.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\DTO\\DashBoardBookingDetailDto.cs",
+              "RelativeToolTip": "SmartWings.Application\\DTO\\DashBoardBookingDetailDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T18:04:24.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IAdminDashboardContract.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Infrastructure\\Contracts\\IAdminDashboardContract.cs",
+              "RelativeDocumentMoniker": "SmartWings.Infrastructure\\Contracts\\IAdminDashboardContract.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Infrastructure\\Contracts\\IAdminDashboardContract.cs",
+              "RelativeToolTip": "SmartWings.Infrastructure\\Contracts\\IAdminDashboardContract.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T13:57:12.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FlightwithmodelDto.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\DTO\\FlightwithmodelDto.cs",
+              "RelativeDocumentMoniker": "SmartWings.Application\\DTO\\FlightwithmodelDto.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\DTO\\FlightwithmodelDto.cs",
+              "RelativeToolTip": "SmartWings.Application\\DTO\\FlightwithmodelDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T07:21:29.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AirCraft.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Domain\\AirCraft.cs",
+              "RelativeDocumentMoniker": "SmartWings.Domain\\AirCraft.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Domain\\AirCraft.cs",
+              "RelativeToolTip": "SmartWings.Domain\\AirCraft.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwvx0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T16:49:42.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FlightController.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.API\\Controllers\\FlightController.cs",
+              "RelativeDocumentMoniker": "SmartWings.API\\Controllers\\FlightController.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.API\\Controllers\\FlightController.cs",
+              "RelativeToolTip": "SmartWings.API\\Controllers\\FlightController.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAwwGMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T15:40:53.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.API\\appsettings.json",
+              "RelativeDocumentMoniker": "SmartWings.API\\appsettings.json",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.API\\appsettings.json",
+              "RelativeToolTip": "SmartWings.API\\appsettings.json",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAUwAkAAACHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-27T14:34:29.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.API\\Controllers\\BookingController.cs",
+              "RelativeDocumentMoniker": "SmartWings.API\\Controllers\\BookingController.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.API\\Controllers\\BookingController.cs",
+              "RelativeToolTip": "SmartWings.API\\Controllers\\BookingController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T13:38:37.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Domain\\Payment.cs",
+              "RelativeDocumentMoniker": "SmartWings.Domain\\Payment.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Domain\\Payment.cs",
+              "RelativeToolTip": "SmartWings.Domain\\Payment.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAmwA0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T15:05:47.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.API\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "SmartWings.API\\Controllers\\PaymentController.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.API\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "SmartWings.API\\Controllers\\PaymentController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwB4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T18:56:43.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BookingService.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\Services\\BookingService.cs",
+              "RelativeDocumentMoniker": "SmartWings.Application\\Services\\BookingService.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\Services\\BookingService.cs",
+              "RelativeToolTip": "SmartWings.Application\\Services\\BookingService.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAcwOwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T06:02:10.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IBookingRepository.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Infrastructure\\Contracts\\IBookingRepository.cs",
+              "RelativeDocumentMoniker": "SmartWings.Infrastructure\\Contracts\\IBookingRepository.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Infrastructure\\Contracts\\IBookingRepository.cs",
+              "RelativeToolTip": "SmartWings.Infrastructure\\Contracts\\IBookingRepository.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAIwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T13:57:16.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BookingRepository.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Infrastructure\\Repositories\\BookingRepository.cs",
+              "RelativeDocumentMoniker": "SmartWings.Infrastructure\\Repositories\\BookingRepository.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Infrastructure\\Repositories\\BookingRepository.cs",
+              "RelativeToolTip": "SmartWings.Infrastructure\\Repositories\\BookingRepository.cs",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAgwJUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T13:58:20.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IFlightRepository.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Infrastructure\\Contracts\\IFlightRepository.cs",
+              "RelativeDocumentMoniker": "SmartWings.Infrastructure\\Contracts\\IFlightRepository.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Infrastructure\\Contracts\\IFlightRepository.cs",
+              "RelativeToolTip": "SmartWings.Infrastructure\\Contracts\\IFlightRepository.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAUwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T15:47:39.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Passenger.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Domain\\Passenger.cs",
+              "RelativeDocumentMoniker": "SmartWings.Domain\\Passenger.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Domain\\Passenger.cs",
+              "RelativeToolTip": "SmartWings.Domain\\Passenger.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA6wCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T16:49:26.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Domain\\Notification.cs",
+              "RelativeDocumentMoniker": "SmartWings.Domain\\Notification.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Domain\\Notification.cs",
+              "RelativeToolTip": "SmartWings.Domain\\Notification.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAiwBkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T18:39:30.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Domain\\Booking.cs",
+              "RelativeDocumentMoniker": "SmartWings.Domain\\Booking.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Domain\\Booking.cs",
+              "RelativeToolTip": "SmartWings.Domain\\Booking.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAmwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T18:51:04.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PaymentService.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\Services\\PaymentService.cs",
+              "RelativeDocumentMoniker": "SmartWings.Application\\Services\\PaymentService.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\Services\\PaymentService.cs",
+              "RelativeToolTip": "SmartWings.Application\\Services\\PaymentService.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAUwE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T18:53:56.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "NotificationService.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\Services\\NotificationService.cs",
+              "RelativeDocumentMoniker": "SmartWings.Application\\Services\\NotificationService.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\Services\\NotificationService.cs",
+              "RelativeToolTip": "SmartWings.Application\\Services\\NotificationService.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAUwGoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T18:42:14.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "FlightService.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\Services\\FlightService.cs",
+              "RelativeDocumentMoniker": "SmartWings.Application\\Services\\FlightService.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\Services\\FlightService.cs",
+              "RelativeToolTip": "SmartWings.Application\\Services\\FlightService.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAiwK8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T15:45:20.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "SmartWings.Application\\Services\\EmailService.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\Services\\EmailService.cs",
+              "RelativeToolTip": "SmartWings.Application\\Services\\EmailService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwB4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T20:49:36.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IBookingService.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\Contracts\\IBookingService.cs",
+              "RelativeDocumentMoniker": "SmartWings.Application\\Contracts\\IBookingService.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\Contracts\\IBookingService.cs",
+              "RelativeToolTip": "SmartWings.Application\\Contracts\\IBookingService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T06:03:53.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "PaymentDTO.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\DTO\\PaymentDTO.cs",
+              "RelativeDocumentMoniker": "SmartWings.Application\\DTO\\PaymentDTO.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\DTO\\PaymentDTO.cs",
+              "RelativeToolTip": "SmartWings.Application\\DTO\\PaymentDTO.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAywDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T18:58:11.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "PassengerDTO.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\DTO\\PassengerDTO.cs",
+              "RelativeDocumentMoniker": "SmartWings.Application\\DTO\\PassengerDTO.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\DTO\\PassengerDTO.cs",
+              "RelativeToolTip": "SmartWings.Application\\DTO\\PassengerDTO.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T18:05:20.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "NotificationsDTO.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\DTO\\NotificationsDTO.cs",
+              "RelativeDocumentMoniker": "SmartWings.Application\\DTO\\NotificationsDTO.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\DTO\\NotificationsDTO.cs",
+              "RelativeToolTip": "SmartWings.Application\\DTO\\NotificationsDTO.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAywBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T18:39:59.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "FlightDTO.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\DTO\\FlightDTO.cs",
+              "RelativeDocumentMoniker": "SmartWings.Application\\DTO\\FlightDTO.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\DTO\\FlightDTO.cs",
+              "RelativeToolTip": "SmartWings.Application\\DTO\\FlightDTO.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAzwB4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T16:09:48.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DashboardBookingDto.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\DTO\\DashboardBookingDto.cs",
+              "RelativeDocumentMoniker": "SmartWings.Application\\DTO\\DashboardBookingDto.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\DTO\\DashboardBookingDto.cs",
+              "RelativeToolTip": "SmartWings.Application\\DTO\\DashboardBookingDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T18:04:14.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "BookingDTO.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\DTO\\BookingDTO.cs",
+              "RelativeDocumentMoniker": "SmartWings.Application\\DTO\\BookingDTO.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\DTO\\BookingDTO.cs",
+              "RelativeToolTip": "SmartWings.Application\\DTO\\BookingDTO.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAYwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T06:03:28.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IPaymentService.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\Contracts\\IPaymentService.cs",
+              "RelativeDocumentMoniker": "SmartWings.Application\\Contracts\\IPaymentService.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\Contracts\\IPaymentService.cs",
+              "RelativeToolTip": "SmartWings.Application\\Contracts\\IPaymentService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAUwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T18:55:19.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "INotificationService.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\Contracts\\INotificationService.cs",
+              "RelativeDocumentMoniker": "SmartWings.Application\\Contracts\\INotificationService.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\Contracts\\INotificationService.cs",
+              "RelativeToolTip": "SmartWings.Application\\Contracts\\INotificationService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAUwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T18:40:47.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IFlightService.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\Contracts\\IFlightService.cs",
+              "RelativeDocumentMoniker": "SmartWings.Application\\Contracts\\IFlightService.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\Contracts\\IFlightService.cs",
+              "RelativeToolTip": "SmartWings.Application\\Contracts\\IFlightService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T15:44:38.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\Contracts\\IAuthService.cs",
+              "RelativeDocumentMoniker": "SmartWings.Application\\Contracts\\IAuthService.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\Contracts\\IAuthService.cs",
+              "RelativeToolTip": "SmartWings.Application\\Contracts\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T18:13:53.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "NotificationController.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.API\\Controllers\\NotificationController.cs",
+              "RelativeDocumentMoniker": "SmartWings.API\\Controllers\\NotificationController.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.API\\Controllers\\NotificationController.cs",
+              "RelativeToolTip": "SmartWings.API\\Controllers\\NotificationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T18:45:27.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "SmartWings.API\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "SmartWings.API\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T06:06:21.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.API\\Program.cs",
+              "RelativeDocumentMoniker": "SmartWings.API\\Program.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.API\\Program.cs",
+              "RelativeToolTip": "SmartWings.API\\Program.cs",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAgwJ0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T13:39:54.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "SmartWings.API\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "SmartWings.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAANcAAAAAAAAAAAAowOoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T13:37:46.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "SmartWings.Application\\Services\\AuthService.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\Services\\AuthService.cs",
+              "RelativeToolTip": "SmartWings.Application\\Services\\AuthService.cs",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAQwL0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T06:01:51.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "SmartWings.Application\\Services\\UserService.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\Services\\UserService.cs",
+              "RelativeToolTip": "SmartWings.Application\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T06:02:43.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "PassengerDashboardDto.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\DTO\\PassengerDashboardDto.cs",
+              "RelativeDocumentMoniker": "SmartWings.Application\\DTO\\PassengerDashboardDto.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\DTO\\PassengerDashboardDto.cs",
+              "RelativeToolTip": "SmartWings.Application\\DTO\\PassengerDashboardDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T17:29:55.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\Contracts\\IUserService.cs",
+              "RelativeDocumentMoniker": "SmartWings.Application\\Contracts\\IUserService.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\Contracts\\IUserService.cs",
+              "RelativeToolTip": "SmartWings.Application\\Contracts\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T18:13:59.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Seat.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Domain\\Seat.cs",
+              "RelativeDocumentMoniker": "SmartWings.Domain\\Seat.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Domain\\Seat.cs",
+              "RelativeToolTip": "SmartWings.Domain\\Seat.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T16:54:16.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Flight.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Domain\\Flight.cs",
+              "RelativeDocumentMoniker": "SmartWings.Domain\\Flight.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Domain\\Flight.cs",
+              "RelativeToolTip": "SmartWings.Domain\\Flight.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAxwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T15:42:17.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "SmartWings.API\\appsettings.Development.json",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.API\\appsettings.Development.json",
+              "RelativeToolTip": "SmartWings.API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-06T18:16:24.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "FlightDbContext.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Infrastructure\\DataContext\\FlightDbContext.cs",
+              "RelativeDocumentMoniker": "SmartWings.Infrastructure\\DataContext\\FlightDbContext.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Infrastructure\\DataContext\\FlightDbContext.cs",
+              "RelativeToolTip": "SmartWings.Infrastructure\\DataContext\\FlightDbContext.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAADwv2kAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T14:29:34.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "FlightRepository.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Infrastructure\\Repositories\\FlightRepository.cs",
+              "RelativeDocumentMoniker": "SmartWings.Infrastructure\\Repositories\\FlightRepository.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Infrastructure\\Repositories\\FlightRepository.cs",
+              "RelativeToolTip": "SmartWings.Infrastructure\\Repositories\\FlightRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAgwK4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T14:00:15.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "20250813193422_initial.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Infrastructure\\Migrations\\20250813193422_initial.cs",
+              "RelativeDocumentMoniker": "SmartWings.Infrastructure\\Migrations\\20250813193422_initial.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Infrastructure\\Migrations\\20250813193422_initial.cs",
+              "RelativeToolTip": "SmartWings.Infrastructure\\Migrations\\20250813193422_initial.cs",
+              "ViewState": "AgIAAPcAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T19:34:23.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "IPaymentRepository.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Infrastructure\\Contracts\\IPaymentRepository.cs",
+              "RelativeDocumentMoniker": "SmartWings.Infrastructure\\Contracts\\IPaymentRepository.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Infrastructure\\Contracts\\IPaymentRepository.cs",
+              "RelativeToolTip": "SmartWings.Infrastructure\\Contracts\\IPaymentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T13:57:49.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "PaymentRepository.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Infrastructure\\Repositories\\PaymentRepository.cs",
+              "RelativeDocumentMoniker": "SmartWings.Infrastructure\\Repositories\\PaymentRepository.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Infrastructure\\Repositories\\PaymentRepository.cs",
+              "RelativeToolTip": "SmartWings.Infrastructure\\Repositories\\PaymentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T17:52:43.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "NotificationRepository.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Infrastructure\\Repositories\\NotificationRepository.cs",
+              "RelativeDocumentMoniker": "SmartWings.Infrastructure\\Repositories\\NotificationRepository.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Infrastructure\\Repositories\\NotificationRepository.cs",
+              "RelativeToolTip": "SmartWings.Infrastructure\\Repositories\\NotificationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T18:41:38.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "UpcomingFlightDto.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\DTO\\UpcomingFlightDto.cs",
+              "RelativeDocumentMoniker": "SmartWings.Application\\DTO\\UpcomingFlightDto.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\DTO\\UpcomingFlightDto.cs",
+              "RelativeToolTip": "SmartWings.Application\\DTO\\UpcomingFlightDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T21:49:37.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "ExceptionMiddlewareExtensions.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.API\\Middleware\\ExceptionMiddlewareExtensions.cs",
+              "RelativeDocumentMoniker": "SmartWings.API\\Middleware\\ExceptionMiddlewareExtensions.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.API\\Middleware\\ExceptionMiddlewareExtensions.cs",
+              "RelativeToolTip": "SmartWings.API\\Middleware\\ExceptionMiddlewareExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T13:55:54.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "INotificationRepository.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Infrastructure\\Contracts\\INotificationRepository.cs",
+              "RelativeDocumentMoniker": "SmartWings.Infrastructure\\Contracts\\INotificationRepository.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Infrastructure\\Contracts\\INotificationRepository.cs",
+              "RelativeToolTip": "SmartWings.Infrastructure\\Contracts\\INotificationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T18:41:17.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "SmartWings.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "SmartWings.Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T14:00:20.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Domain\\User.cs",
+              "RelativeDocumentMoniker": "SmartWings.Domain\\User.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Domain\\User.cs",
+              "RelativeToolTip": "SmartWings.Domain\\User.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T18:51:35.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "20250806191040_AddSeatsAndPassenger.cs",
+              "DocumentMoniker": "D:\\Visual studio c#\\Case_StudyProject\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Infrastructure\\Migrations\\20250806191040_AddSeatsAndPassenger.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Visual studio c#\\Case_StudyProject\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Infrastructure\\Migrations\\20250806191040_AddSeatsAndPassenger.cs",
+              "ToolTip": "D:\\Visual studio c#\\Case_StudyProject\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Infrastructure\\Migrations\\20250806191040_AddSeatsAndPassenger.cs",
+              "RelativeToolTip": "..\\..\\..\\Visual studio c#\\Case_StudyProject\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Infrastructure\\Migrations\\20250806191040_AddSeatsAndPassenger.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T19:10:40.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "20250806190903_AddSeatsAndPassenger.cs",
+              "DocumentMoniker": "D:\\Visual studio c#\\Case_StudyProject\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Infrastructure\\Migrations\\20250806190903_AddSeatsAndPassenger.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Visual studio c#\\Case_StudyProject\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Infrastructure\\Migrations\\20250806190903_AddSeatsAndPassenger.cs",
+              "ToolTip": "D:\\Visual studio c#\\Case_StudyProject\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Infrastructure\\Migrations\\20250806190903_AddSeatsAndPassenger.cs",
+              "RelativeToolTip": "..\\..\\..\\Visual studio c#\\Case_StudyProject\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Infrastructure\\Migrations\\20250806190903_AddSeatsAndPassenger.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T19:09:03.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\DTO\\UserDTO.cs",
+              "RelativeDocumentMoniker": "SmartWings.Application\\DTO\\UserDTO.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\DTO\\UserDTO.cs",
+              "RelativeToolTip": "SmartWings.Application\\DTO\\UserDTO.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T06:22:42.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Infrastructure\\Contracts\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "SmartWings.Infrastructure\\Contracts\\IUserRepository.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Infrastructure\\Contracts\\IUserRepository.cs",
+              "RelativeToolTip": "SmartWings.Infrastructure\\Contracts\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T13:57:51.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "RouteInputDto.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\DTO\\RouteInputDto.cs",
+              "RelativeDocumentMoniker": "SmartWings.Application\\DTO\\RouteInputDto.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\DTO\\RouteInputDto.cs",
+              "RelativeToolTip": "SmartWings.Application\\DTO\\RouteInputDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T18:58:12.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "AuthDTO.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\DTO\\AuthDTO.cs",
+              "RelativeDocumentMoniker": "SmartWings.Application\\DTO\\AuthDTO.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\DTO\\AuthDTO.cs",
+              "RelativeToolTip": "SmartWings.Application\\DTO\\AuthDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwCUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T18:14:00.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "AircraftDTO.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\DTO\\AircraftDTO.cs",
+              "RelativeDocumentMoniker": "SmartWings.Application\\DTO\\AircraftDTO.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Application\\DTO\\AircraftDTO.cs",
+              "RelativeToolTip": "SmartWings.Application\\DTO\\AircraftDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T06:03:14.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "AuthRepository.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Infrastructure\\Repositories\\AuthRepository.cs",
+              "RelativeDocumentMoniker": "SmartWings.Infrastructure\\Repositories\\AuthRepository.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Infrastructure\\Repositories\\AuthRepository.cs",
+              "RelativeToolTip": "SmartWings.Infrastructure\\Repositories\\AuthRepository.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAUwEwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T13:58:17.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "IAuthRepository.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Infrastructure\\Contracts\\IAuthRepository.cs",
+              "RelativeDocumentMoniker": "SmartWings.Infrastructure\\Contracts\\IAuthRepository.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Infrastructure\\Contracts\\IAuthRepository.cs",
+              "RelativeToolTip": "SmartWings.Infrastructure\\Contracts\\IAuthRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T13:57:15.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "20250806182915_AddPassenger.cs",
+              "DocumentMoniker": "D:\\Visual studio c#\\Case_StudyProject\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Infrastructure\\Migrations\\20250806182915_AddPassenger.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Visual studio c#\\Case_StudyProject\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Infrastructure\\Migrations\\20250806182915_AddPassenger.cs",
+              "ToolTip": "D:\\Visual studio c#\\Case_StudyProject\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Infrastructure\\Migrations\\20250806182915_AddPassenger.cs",
+              "RelativeToolTip": "..\\..\\..\\Visual studio c#\\Case_StudyProject\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.Infrastructure\\Migrations\\20250806182915_AddPassenger.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T18:29:16.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "SmartWings.API\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "SmartWings.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-06T18:16:51.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "SmartWings.API.http",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.API\\SmartWings.API.http",
+              "RelativeDocumentMoniker": "SmartWings.API\\SmartWings.API.http",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.API\\SmartWings.API.http",
+              "RelativeToolTip": "SmartWings.API\\SmartWings.API.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-08-06T18:16:38.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "ExceptionMiddleWare.cs",
+              "DocumentMoniker": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.API\\Middleware\\ExceptionMiddleWare.cs",
+              "RelativeDocumentMoniker": "SmartWings.API\\Middleware\\ExceptionMiddleWare.cs",
+              "ToolTip": "D:\\clone21\\flight-booking-app_ttp1adda2510_team-2\\Smart Wings\\SmartWings.API\\Middleware\\ExceptionMiddleWare.cs",
+              "RelativeToolTip": "SmartWings.API\\Middleware\\ExceptionMiddleWare.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T13:38:51.249Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
